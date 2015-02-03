@@ -78,7 +78,6 @@ public class ZombieController : MonoBehaviour {
 			other.transform.parent.GetComponent<CatController>().JoinConga( followTarget, moveSpeed, turnSpeed );
 			congaLine.Add( other.transform );
 			if (congaLine.Count >= 5) {
-				Debug.Log("You won!");
 				Application.LoadLevel("WinScene");
 			}
 		}

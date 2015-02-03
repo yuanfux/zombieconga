@@ -20,7 +20,7 @@ public class EnemyController : MonoBehaviour {
 	{
 		if (mycam == null)
 			return;
-		float yMax = Camera.main.orthographicSize - 0.5f;
+		float yMax = mycam.orthographicSize - 0.5f;
 		transform.position = new Vector3( spawnPoint.position.x, 
 		                                 Random.Range(-yMax, yMax), 
 		                                 transform.position.z );

@@ -9,7 +9,7 @@ public class StartGame : MonoBehaviour {
 	}
 	
 	public void LoadLevel() {
-		Application.LoadLevel("_Scene_0");
+		Application.LoadLevel("CongaScene");
 	}
 	
 }
